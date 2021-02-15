@@ -23,7 +23,7 @@
   Content-Type   application/json
   NA
   
-  #####  To add update record, method=PUT
+  #####  To update record, method=PUT
   ###### url: localhost:8080/person/{full_name}
   Where full_name is first_name+last_name of the existing record (Without space in between).
   
@@ -43,7 +43,7 @@
   }
   ```
   
-  #####  To add remove record, method=DELETE
+  #####  To remove record, method=DELETE
   
   ###### 1) url: localhost:8080/person
   
